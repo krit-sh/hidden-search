@@ -1,12 +1,72 @@
-# React + Vite
+# Hidden Search - React + Vite App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application built using [Vite](https://vitejs.dev/) for fast development and optimized builds.
 
-Currently, two official plugins are available:
+## Features
+- ⚡ Lightning-fast development with Vite
+- 🔍 Hidden search functionality
+- 🎨 Modern UI with React components
+- 📦 Optimized production build
+- 🛠️ Easy customization and scalability
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/krit-sh/hidden-search.git
+   cd hidden-search
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Development
+
+To start the development server, run:
+```sh
+npm run dev
+```
+This will start a local server, typically at `http://localhost:5173/`.
+
+## Build
+
+To create a production build, run:
+```sh
+npm run build
+```
+The optimized build will be generated in the `dist` folder.
+
+## Preview
+
+To preview the production build locally:
+```sh
+npm run preview
+```
+
+## Folder Structure
+```
+├── src
+│   ├── components  # Reusable UI components
+│   ├── pages       # Page components
+│   ├── assets      # Static assets (images, styles, etc.)
+│   ├── main.jsx    # Entry point
+│   ├── App.jsx     # Main application component
+├── public          # Public assets
+├── package.json    # Project dependencies and scripts
+├── vite.config.js  # Vite configuration
+```
+
+## Deployment
+
+You can deploy this app using services like:
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+- [GitHub Pages](https://pages.github.com/) (with Vite's static build)
+
+## License
+This project is licensed under the MIT License.
+
+## Author
+[Ritesh Kumar](https://github.com/krit-sh)
+
