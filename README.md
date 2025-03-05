@@ -56,17 +56,3 @@ npm run preview
 ├── package.json    # Project dependencies and scripts
 ├── vite.config.js  # Vite configuration
 ```
-
-## Deployment
-
-You can deploy this app using services like:
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-- [GitHub Pages](https://pages.github.com/) (with Vite's static build)
-
-## License
-This project is licensed under the MIT License.
-
-## Author
-[Ritesh Kumar](https://github.com/krit-sh)
-
