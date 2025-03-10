@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./HiddenSearch.css";
+import "./hiddenSearch.css";
 
 const HiddenSearch = () => {
   const [active, setActive] = useState(false);
